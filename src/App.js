@@ -1,26 +1,35 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Nav from './Nav';
+import Line from './Line';
+import Login from './Login';
+import Home from './Home'
+import Header from './Header.js';
+import Insidecards from './Insidecards';
+import  SimpleSlider from './Corousel.js';
 
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+
+import Group from './Group';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+  <Router>
+    <div>
+
+      <Switch>
+<Route exact path="/" component={Home} />
+        <Route exact path="/profile" component={Insidecards} />
+          <Route exact path="/login" component={Login} />
+
+      </Switch>
+
     </div>
-  );
+  </Router>
+);
+
 }
 
 export default App;

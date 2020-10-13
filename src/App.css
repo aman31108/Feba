@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -23,6 +24,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+/* .mainicon{
+  position: relative;
+  margin-left: 30px;
+  margin-right: 2px;
+} */
+.feba{font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+
+      font-weight: 500;
+
+
+}
+
 
 .App-link {
   color: #61dafb;
@@ -36,3 +49,98 @@
     transform: rotate(360deg);
   }
 }
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+
+
+.slides {
+  position: relative;
+
+
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index:1;
+}
+
+.slides .slick-prev .corousel {
+  left: 5%;
+}
+
+.slides .slick-next {
+  right: 5%;
+}
+/* .corousel{
+  position: relative;
+  margin-left: 300px;
+} */
+.mycard2{
+  margin-bottom: 30px;
+
+margin-left: 200px;
+}
+.page2sheading{
+  font-family: Raleway;
+    color: grey;
+}
+.mheading{
+  margin-left:  30px;
+  font-family: "Poppins"
+}
+.sideimages{
+  height: 140px;
+
+  margin-left: 20px;
+  margin-top: 10PX;
+  margin-bottom: 3PX;
+  margin-right: 20px;
+}
+.sideimages2{
+  height: 140px;
+
+
+  margin-left: 20px;
+  margin-top: 10PX;
+  margin-bottom: 3PX;
+  margin-right: 40px;
+}
+.starR{
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.revdiv{
+  height: 180px;
+}
+/* .coroselimg{
+  height: 350px;
+} */
+/* .carousel-inner > .item > img {
+      width:50%;
+      margin: auto;
+        Or try to use important
+       height:10%;
+        position: relative;
+    padding-left: 80px;
+    padding-top: 20px;
+    position: relative;
+    left: 100px;
+    } */
+    .coroselimg{
+      width:50%;
+      margin: auto;
+
+    }
+    .corousel-inner .item a img{
+      margin:auto;
+    }
+    .jaipur{
+      color: grey;
+    }
